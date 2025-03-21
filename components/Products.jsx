@@ -19,7 +19,7 @@ export default function Products() {
           <h2>Shop Our Selection</h2>
           <p>From organisation or accesorization</p>
         </div>
-        <div className="planner-content">
+        <div className="planner-container">
           <div>
             <button className="img-button">
               <img src="low_res/planner.jpeg" alt="high-res-planner"/>
@@ -29,7 +29,7 @@ export default function Products() {
             <p className="text-large planner-header">Medieval Dragon Month Planner</p>
             <h3><span>$</span>14.99</h3>
             <p>Step into a realm of fantasy and organization with our 
-              <strong>Medieval Dragon Month Planner</strong>! This 
+              <strong> Medieval Dragon Month Planner</strong>! This 
               high-resolution PNG asset combines the fierce elegance of 
               dragons with intricate medieval designs to create a planner 
               that's not only functional but also a work of art. Whether 
