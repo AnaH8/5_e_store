@@ -263,6 +263,22 @@ footer .links-container > div {
     font-size: 2rem;
 }
 
+/* not found and error pages */
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 8rem 0;
+}
+
+.page-container > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 
 /* portal overlay */
 
@@ -280,6 +296,41 @@ footer .links-container > div {
     transform: none;
     box-shadow: none;
 }
+
+.portal-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1001;
+}
+
+.portal-underlay {
+    position: absolute;
+    inset: 0;     /*the same size as the portal-container (its parent)*/
+    z-index: 0;
+    opacity: 0.7;
+    background: #030615;
+    border: none;
+    padding: none;
+    cursor: zoom-out;
+}
+
+.portal-content {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1005;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80vw;
+    max-height: 80vh;
+    display: grid;
+    place-items: center;
+}
+
+
 
 
 /* breakpoints */
