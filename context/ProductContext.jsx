@@ -9,19 +9,27 @@ export default function ProductsProvider(props) {
 
   const [cart, setCart] = useState({})    //empty cart at the start;  = global state
 
-    function handleIncrementProduct(price_id, num){
+    function handleIncrementProduct(price_id, num, data){
         const newCart = {
             ...cart,
         }
         if (price_id in cart){
             //the product is already in the cart, so increment/decrement the previous value
-            newCart[price_id] = newCart[price_id] + num
+
+            //newCart[price_id] = newCart[price_id] + num
+            newCart[price_id] = {
+              ...data,
+              quantity: newCart[price_id]?.quantity + num
+            }
         } else {
             //product not yet in cart, so add it
-            newCart[price_id] = num
+            newCart[price_id] = {
+              ...data,
+              quantity: num
+            }
         } 
         
-        if (newCart[price_id] === 0) {
+        if (newCart[price_id].quantity === 0) {
             //the user has set the num to 0, so we need to remove the product from cart
             delete newCart[price_id]
         }
