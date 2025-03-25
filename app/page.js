@@ -3,7 +3,8 @@ import Products from "@/components/Products";
 
 //fetch data on the server side
 export async function getProducts() {
-  const response = await fetch('http://localhost:3000/api/products')
+  const baseURL = process.env.NEXT_PUBLIC_BASE_URL
+  const response = await fetch(baseURL+ '/api/products')
   const products = await response.json()
   return products
 }
@@ -11,13 +12,24 @@ export async function getProducts() {
 export default async function Home() {
 
   const products = await getProducts()
-  console.log(products)
+  
+  let stickers = []
+  let planner = null
+
+  for( let product of products) {
+    if (product.name === "Medieval Dragon Month Planner") {
+      planner = product
+      continue
+    }
+    stickers.push(product)
+  }
+
 
   return (
     <>
       <ImageBanner/>
       <section>
-        <Products/>
+        <Products planner={planner} stickers={stickers} />
       </section>
     </>
   );
