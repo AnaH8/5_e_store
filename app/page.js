@@ -17,7 +17,7 @@ export default async function Home() {
   let planner = null
 
   for( let product of products) {
-    if (product.name === "Medieval Dragon Month Planner") {
+    if (product.name === "The Woof Notebook") {
       planner = product
       continue
     }

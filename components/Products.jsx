@@ -52,30 +52,22 @@ export default function Products(props) {
           </div>
           <div className="planner-info">
             <p className="text-large planner-header">
-              Medieval Dragon Month Planner
+              The Wolf Notebook
             </p>
             <h3>
               <span>$</span>14.99
             </h3>
             <p>
-              Step into a realm of fantasy and organization with our
-              <strong> Medieval Dragon Month Planner</strong>! This
-              high-resolution PNG asset combines the fierce elegance of dragons
-              with intricate medieval designs to create a planner that's not
-              only functional but also a work of art. Whether you&apos;re
-              jotting down quests, planning battles, or just scheduling your
-              weekly grocery run, this planner is your ultimate companion.
+            This planner will allow you to schedule in all the walks that your dog wants. 
+            Maybe some snacks too. Or maybe you want to use for non-dog-related things, 
+            like a grocery list... that consists of dog food and toys. - Sincerely, your dog 
             </p>
             <ul>
               <li>
-                <strong>Epic Dragon Artwork:</strong> Stunning hand-drawn dragon
-                motifs and medieval-inspired borders make every month feel
-                legendary.
+                <strong>100 pages</strong> ready to be filled in with your dog's wants and needs.. or your own 
               </li>
               <li>
-                <strong>Fully Printable:</strong> Designed at ultra-high
-                resolution, it&apos;s perfect for printing on any size paper,
-                from A4 to poster-sized displays.
+                <strong>Hardback covers:</strong> so if your dog decides to chew it, it'll have a hard snack  
               </li>
             </ul>
             <div className="purchase-btns">
@@ -94,8 +86,8 @@ export default function Products(props) {
 
       <div className="section-container">
         <div className="section-header">
-          <h2>Or Collect Your Favourite tech</h2>
-          <p>Choose from our custom designed tech logos</p>
+          <h2>Or Collect Your Favourite stickers</h2>
+          <p>Choose from our custom designed stickers</p>
         </div>
 
         <div className="sticker-container">

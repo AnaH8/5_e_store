@@ -27,7 +27,7 @@ export default function ImageBanner() {
         <div>
           <div>
             <h3>Welcome to</h3>
-            <h1>My E-Store Project</h1>
+            <h1>Fundog</h1>
           </div>
           <div>
             <button>Shop stickers</button>

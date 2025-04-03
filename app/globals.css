@@ -175,6 +175,7 @@ main,
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding-top: 2rem;
 }
 
 .planner-header {

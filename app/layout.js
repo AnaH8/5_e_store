@@ -7,8 +7,8 @@ import EmailInput from "@/components/EmailInput";
 import ProductsProvider from "@/context/ProductContext";
 
 export const metadata = {
-  title: "E-store",
-  description: "A store built with Next.js",
+  title: "Fundog",
+  description: "A dogs sticker store built with Next.js",
 };
 
 export default function RootLayout({ children }) {
@@ -22,10 +22,10 @@ export default function RootLayout({ children }) {
           <header>
             <div className="header-content">
             <Link href={'/'}>
-              <h1>E-store</h1>
+              <h1>Fundog</h1>
             </Link>
 
-            <h5 className="mid-text">- Cool stuff for cool people -</h5>
+            <h5 className="mid-text">- Cool stuff for dog people -</h5>
             <Cart/>
             </div>
           </header>
@@ -59,10 +59,10 @@ export default function RootLayout({ children }) {
               </div>
             </div>
             <div className="socials-container">
-              <p>&copy; <a href="/" target="_blank">Ana</a> 2025<br></br>Built with NextJS & <a href="/" target="_blank">FantaCSS</a></p>     {/* href: portfolio, fantaCSS */}
+              <p>&copy; <a href="/" target="_blank">Ana</a> 2025<br></br>Built with NextJS & <a href="https://www.fantacss.smoljames.com/" target="_blank">FantaCSS</a></p>     {/* href: portfolio, fantaCSS */}
               <div className="social-links">
-                <Link href={'/'} target="_blank"><i className="fa-brands fa-github"></i></Link>
-                <Link href={'/'} target="_blank"><i className="fa-brands fa-linkedin"></i></Link>
+                <Link href={'https://github.com/AnaH8'} target="_blank"><i className="fa-brands fa-github"></i></Link>
+                <Link href={'https://www.linkedin.com/in/anamaria-herbel/'} target="_blank"><i className="fa-brands fa-linkedin"></i></Link>
                 
               </div>
             </div>
