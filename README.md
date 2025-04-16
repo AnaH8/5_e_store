@@ -1,3 +1,28 @@
+# Fundog
+A full stack E-Commerce store with secure payments using Stripe
+
+## What is Fundog
+Fundog is an online store where you can buy dog related stationary, such as planners and funny stickers 
+
+## Built with
+- NextJS
+- Stripe
+- [FantaCSS](https://github.com/jamezmca/fantacss)
+
+## How it looks
+insert images here for every page
+
+## What does the project have
+- responsive design
+- error and 404 pages
+- modal overlay to show a high res image of the product
+- integrated Stripe API (fetch products & create checkout session)
+- global state to enable CRUD functionalities 
+- logic to calculate the number of items in our cart from the global state
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

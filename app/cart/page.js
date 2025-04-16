@@ -51,7 +51,7 @@ export default function CartPage() {
           const itemQuantity = itemData?.quantity
 
           const imgName =
-            itemData.name === "Medieval Dragon Month Planner"
+            itemData.name === "The Woof Notebook"
               ? "planner"
               : itemData.name
                   .replaceAll(" Sticker.png", "")
@@ -71,6 +71,7 @@ export default function CartPage() {
                     handleIncrementProduct(itemData.default_price, newValue, itemData, true)
                   }}/>
                 </div>
+
               </div>
             </div>
           )
