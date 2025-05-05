@@ -44,8 +44,8 @@ export default function RootLayout({ children }) {
             <div className="links-container">
               <div>
                 <h3>Ana</h3>
-                <Link target="_blank" href={'/'}>portfolio</Link>
-                <Link target="_blank" href={'/'}>another project</Link>
+                <Link target="_blank" href={'https://anah8-portfolio.netlify.app/'}>portfolio</Link>
+                <Link target="_blank" href={'https://food-repository.netlify.app/'}>another project</Link>
               </div>
               <div>
                 <h3>Store</h3>
